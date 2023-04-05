@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+*,
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  scroll-behavior: smooth;
+  font-family: serif;
+  overflow-x: hidden !important;
+  background-color: rgba(25, 38, 57, 0.7);
+  -webkit-tap-highlight-color: transparent;
+}
+
+.Calibri{
+  font-family: Calibri;
+}
+
+:focus {
+  outline: none;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+.Raleway {
+  font-family: 'Raleway';
+  line-height: 24px;
+}
+
+h1 {
+  letter-spacing: 3px;
+}
+
+.page-height {
+  height: calc(100vh - 8rem);
+}
+
+.accent-text-color {
+  color: #c76d29;
+}
+
+.accent-border-color {
+  border-color: #c76d29;
+}
+
+.text-40 {
+  font-size: 40px;
+  line-height: 45px;
+}
+
+.text-60 {
+  font-size: 60px;
+}
+
+.position-top-60 {
+  top: 60%;
+}
+
+.position-top-70 {
+  top: 70%;
+}
+
+.box-shadow-light {
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.footer-color {
+  background: rgb(4, 15, 36)
+}
+
+.page-height-mobile {
+  height: 100%;
+}
+
+.text-olive {
+  color: #afaf5a;
+}
+
+.word-spacing-3 {
+  word-spacing: 3px;
+}
+
+.main-bg-accent {
+  background-color: rgba(25, 38, 57, 0.7);
+}
+
+.z-1000 {
+  z-index: 1000;
+}
+
+.z-2000 {
+  z-index: 2000;
+}
+
+.buttons {
+  background-color: rgba(25, 38, 57, 0.7);
+  color: white;
+  transition: 0.3s ease-in;
+}
+
+.buttons:hover {
+  background-color: rgba(48, 73, 111, 0.7);
+}
+
+.accent-button {
+  border: 2px solid;
+  border-color: #c76d29 !important;
+  color: #c76d29;
+  transition: 0.3s !important;
+}
+
+.accent-button:hover {
+  background-color: #c76d29;
+  color: white;
+}
+
+
+
+.text-animation-parent {
+  transform: scale(0.94);
+  animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
+}
+@keyframes scale {
+  100% {
+    transform: scale(1);
+  }
+}
+
+.text-animation {
+  display: inline-block;
+  opacity: 0;
+  filter: blur(4px);
+}
+
+.text-animation:nth-child(1) {
+  animation: fade-in 0.8s 0.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+.text-animation:nth-child(2) {
+  animation: fade-in 0.8s 0.4s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+.text-animation:nth-child(3) {
+  animation: fade-in 0.8s 0.6s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+.text-animation:nth-child(4) {
+  animation: fade-in 0.8s 0.8s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+
+@keyframes fade-in {
+  100% {
+    opacity: 1;
+    filter: blur(0);
+  }
+}
+
+/* .bg-image{
+  background-image: url('/Assets/');
+} */
